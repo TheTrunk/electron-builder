@@ -293,7 +293,7 @@ function getWinSignTool(vendorPath: string): string {
     return path.join(vendorPath, "windows-6", "signtool.exe")
   }
   else {
-    return path.join(vendorPath, "windows-10", process.arch, "signtool.exe")
+    return "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64\\signtool.exe"
   }
 }
 
